@@ -1,0 +1,12 @@
+name: A workflow for my Hello "Greet Githubaction"
+on: push
+
+jobs:
+  build:
+    name: Hello Githhubaction
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./action-a
+        with:
+          MY_NAME: "Terminator"
