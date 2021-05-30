@@ -6,7 +6,7 @@ jobs:
     name: Hello Githhubaction
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/cehckout@v1
+      - uses: actions/checkout@v1
       - uses: ./action-a
         with:
           MY_NAME: "Terminator"
