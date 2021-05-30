@@ -1,5 +1,5 @@
 # Take debian os as base for the container image
-FROM debian9.5-slim
+FROM debian:9.5-slim
 
 # copy the local script to the container path
 ADD entrypoint.sh /entrypoint.sh
